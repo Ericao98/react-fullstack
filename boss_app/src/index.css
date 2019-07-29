@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* 增加以下的样式配置 */
+.error-msg {
+  color: #f50;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.am-tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* 上部导航栏不要固定！否则会有布局问题 */
+/* .am-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+.page-content {
+  padding: 45px 5px;
+}
